@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { TickerData } from '../hooks/useBinanceTicker';
+import { TickerData } from '../hooks/useBinanceTicker.ts';
 
 interface TerminalProps {
   data: TickerData | null;

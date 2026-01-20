@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
-import MatrixRain from './components/MatrixRain';
-import Terminal from './components/Terminal';
-import CrtOverlay from './components/CrtOverlay';
-import { useBinanceTicker } from './hooks/useBinanceTicker';
+import MatrixRain from './components/MatrixRain.tsx';
+import Terminal from './components/Terminal.tsx';
+import CrtOverlay from './components/CrtOverlay.tsx';
+import { useBinanceTicker } from './hooks/useBinanceTicker.ts';
 
 const App: React.FC = () => {
   const { data, logs, isConnected } = useBinanceTicker('btcusdt');
